@@ -1,8 +1,8 @@
 const app = require('./app');
 const Loaders = require('./loaders');
-
+const PORT = process.env.PORT || 3000;
 Loaders.start();
 
-app.listen(3333, () =>
-    console.log("Servidor iniciado na porta 3333: http://localhost:3333/")
+app.listen(PORT, () =>
+    console.log("Servidor iniciado na porta $PORT: http://localhost:3333/")
 );
