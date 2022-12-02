@@ -4,5 +4,7 @@ const PORT = process.env.PORT || 3000;
 Loaders.start();
 
 app.listen(PORT, () =>
-    console.log("Servidor iniciado na porta $PORT: http://localhost:3333/")
+    console.log(PORT)
 );
+
+ 
