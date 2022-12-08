@@ -22,6 +22,6 @@ const PetSchema = new Schema({
     date: { type: String, required: false },   
 });
 
-const PetModel =mongoose.model('pets', PetSchema);
+const PetModel = mongoose.model('pets', PetSchema);
 
 module.exports = PetModel;
